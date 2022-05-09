@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttons{
+    @apply rounded-full bg-white 
+    align-text-top w-10 m-2
+    cursor-pointer text-lg shadow-lg
+}
+.buttonl{
+    @apply rounded-full bg-white  
+    align-text-top w-2/3 m-2
+    cursor-pointer text-lg
+}
+.buttonl1{
+    @apply rounded-full bg-white  
+    align-text-top w-16 m-2
+    cursor-pointer text-lg
+}
+#minus
+{
+    @apply
+bg-blue-200
+}
